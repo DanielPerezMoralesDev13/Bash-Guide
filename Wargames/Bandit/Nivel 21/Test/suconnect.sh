@@ -25,6 +25,7 @@ while true; do
   if [ "$INPUT" == "$PASSWORD" ]; then
     echo "Password matches, sending next password"
     echo "EeoULMCra2q0dSkYj561DX7s1CpBuOBt" >&3 # Envía la nueva contraseña
+    break
   else
     echo "Password incorrect"
   fi
